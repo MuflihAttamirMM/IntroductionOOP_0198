@@ -6,10 +6,21 @@ public :
     int nim;
     string nama;
     float nilai;
-    
+
         void printData(){
         cout << "NIM: " << nim << endl;
         cout << "Nama: " << nama << endl;
         cout << "Nilai: " << nilai << endl;
     }
 }; // batas class
+
+int main(){
+    Mahasiswa mhs1;
+    mhs1.nim = 198;
+    mhs1.nama = "Muflih";
+    mhs1.nilai = 99.5;
+
+    mhs1.printData();
+
+    return 0;
+}
